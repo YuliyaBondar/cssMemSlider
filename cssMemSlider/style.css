@@ -45,10 +45,6 @@ body {
   row-gap: 3rem;
 }
 
-#slider-container>ul>li>img {
-  border-radius: 1rem;
-}
-
 #slider-container>ul>li p {
   max-width: 20rem;
 }
@@ -61,7 +57,6 @@ input[type=radio] {
   position: absolute;
   left: 90.5%;
   bottom: 1.8rem;
-  order: 2;
   z-index: 100;
   width: 1rem;
   height: 1rem;
