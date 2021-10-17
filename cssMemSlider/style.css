@@ -53,6 +53,8 @@ body {
   max-width: 20rem;
 }
 
+
+
 input[type=radio] {
   visibility: hidden;
 }
@@ -67,7 +69,14 @@ input[type=radio] {
   height: 5rem;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 550px) {
+  .slider-panel {
+    bottom: 6rem;
+    height: 3rem;
+  } 
+}
+
+@media (max-width: 343px) {
   .slider-panel {
     bottom: 8rem;
     right: 15%;
