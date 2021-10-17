@@ -55,8 +55,8 @@ input[type=radio] {
 
 #container label {
   position: absolute;
-  left: 90.5%;
-  bottom: 1.8rem;
+  left: 89%;
+  bottom: 2.8rem;
   z-index: 100;
   width: 1rem;
   height: 1rem;
@@ -73,6 +73,13 @@ input[type=radio] {
     left: 53%;
     bottom: 6.7rem;
   } 
+}
+
+.label-area {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  transform: translate(-30%, -30%);
 }
 
 #container label:hover {
@@ -100,13 +107,13 @@ input[type=radio] {
 }
 
 #container label[for=btn1] {
-  margin-left: -4rem;
+  margin-left: -5rem;
 }
 #container label[for=btn2] {
-  margin-left: -2rem;
+  margin-left: -2.5rem;
 }
 #container label[for=btn4] {
-  margin-left: 2rem;
+  margin-left: 2.5rem;
 }
 
 #container #btn1:checked~#slider-container>ul {
