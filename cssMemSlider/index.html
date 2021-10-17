@@ -8,15 +8,11 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div id="container">
-    <input type="radio" name="buttons" id="btn1" checked="checked"/>
-    <label for="btn1"><div class="label-area"></div></label>
-    <input type="radio" name="buttons" id="btn2">
-    <label for="btn2"><div class="label-area"></div></label>
-    <input type="radio" name="buttons" id="btn3">
-    <label for="btn3"><div class="label-area"></div></label>
-    <input type="radio" name="buttons" id="btn4">
-    <label for="btn4"><div class="label-area"></div></label>
+  <div id="container">    
+    <input type="radio" name="buttons" id="btn1" checked="checked"/>    
+    <input type="radio" name="buttons" id="btn2">    
+    <input type="radio" name="buttons" id="btn3">    
+    <input type="radio" name="buttons" id="btn4">    
     <div id="slider-container">
       <ul>
         <li id="slide1">
@@ -36,6 +32,12 @@
           <p>Когда дали задание на 48 часов</p>
         </li>
       </ul>      
+    </div>
+    <div class="slider-panel">
+      <label for="btn1" tabindex="1" autofocus><div class="label-area"></div></label>
+      <label for="btn2" tabindex="2"><div class="label-area"></div></label>
+      <label for="btn3" tabindex="3"><div class="label-area"></div></label>
+      <label for="btn4" tabindex="4"><div class="label-area"></div></label>
     </div>
   </div>
 </body>
