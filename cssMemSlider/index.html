@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Mem Slider</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="container">    
+    <input type="radio" name="buttons" id="btn1" checked="checked"/>    
+    <input type="radio" name="buttons" id="btn2">    
+    <input type="radio" name="buttons" id="btn3">    
+    <input type="radio" name="buttons" id="btn4">    
+    <div id="slider-container">
+      <ul>
+        <li id="slide1">
+          <img src="./assets/1.jpg" alt="slide">
+          <p>Я и мой рассудок</p>
+        </li>
+        <li id="slide2">
+          <img src="./assets/2.jpg" alt="slide">
+          <p>Когда друзья зовут на тусовку, но ты уже в пижамке</p>
+        </li>
+        <li id="slide3">
+          <img src="./assets/4.jpg" alt="slide">
+          <p>О! Я же вчера курочку из KFC не доел. Что-то ты халтуришь</p>
+        </li>
+        <li id="slide4">
+          <img src="./assets/5.jpg" alt="slide">
+          <p>Когда дали задание на 48 часов</p>
+        </li>
+      </ul>      
+    </div>
+    <div class="slider-panel">
+      <label for="btn1" tabindex="1" autofocus><div class="label-area"></div></label>
+      <label for="btn2" tabindex="2"><div class="label-area"></div></label>
+      <label for="btn3" tabindex="3"><div class="label-area"></div></label>
+      <label for="btn4" tabindex="4"><div class="label-area"></div></label>
+    </div>
+  </div>
+</body>
+</html>
